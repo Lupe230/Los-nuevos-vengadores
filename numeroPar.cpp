@@ -6,13 +6,13 @@ int main(){
   
   int num = 3;
   int res = 0;
-  res = 3%2;
+  res = num % 2;
   
-  if(res==0){
-    cout<<"Es par";
+  if(res == 0){
+    cout << "Es par" << endl;
   }
   else{
-    cout<<"Es impar";
+    cout << "Es impar" << endl;
   }
 
   return 0;
